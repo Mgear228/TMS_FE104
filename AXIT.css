@@ -1,0 +1,186 @@
+header {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 1024px;
+    height: 75px;
+    background: black;
+}
+.logo1 {
+    position: absolute;
+    width: 183px;
+    height: 75px;
+    left: 115px;
+}
+.logo1 .ax {
+    color: white;
+    position: absolute;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 41px;
+    font-weight: 200;
+    margin: 15px 0;
+}
+.logo1 .it {
+    color: #EC7979;
+    position: absolute;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 41px;
+    left: 55px;
+    margin: 15px 0;
+}
+.menu {
+    position: absolute;
+    height: 75px;
+    left: 430px;
+}
+th {
+    color: white;
+    width: 113px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+}
+.banner {
+    width: 1024px;
+    height: 693px;
+    position: relative;
+}
+img {
+    position: absolute;
+    width: 1024px;
+    height: 693px;
+    filter: brightness(50%);
+}
+.logo2 {
+    width: 183px;
+    height: 75px;
+    position: absolute;
+    left: 115px;
+    top: 150px;
+}
+.logo2 .ax {
+    color: white;
+    position: absolute;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 69px;
+    font-weight: 200;
+    margin: 0;
+}
+.logo2 .it {
+    color: #EC7979;
+    position: absolute;
+
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 69px;
+    left: 93px;
+    margin: 0;
+}
+.banner h2 {
+    position: absolute;
+    left: 11.26%;
+    right: 44.37%;
+    top: 37.13%;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+
+    color: white;
+}
+.separ {
+    position: absolute;
+    width: 115px;
+    left: 115px;
+    top: 460px;
+
+    border: 1px solid white;
+    filter: brightness(50%);
+}
+.banner h5 {
+    position: absolute;
+    left: 11.26%;
+    right: 70.86%;
+    top: 68%;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: white;
+    filter: brightness(75%);
+}
+.btn1 {
+    color: white;
+    position: absolute;
+    width: 183px;
+    height: 50px;
+    left: 11.26%;
+    top: 81%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+    border: 2px solid white;
+    background: none;
+}
+article {
+    position: absolute;
+    width: 398px;
+    height: 450px;
+    left: 60%;
+    top: 20%;
+
+    background: white;
+    border-radius: 10px;
+}
+article h4 {
+    position: absolute;
+    left: 17.5%;
+    top: 5%;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+
+    color: #333333;
+}
+span {
+    color:#EC7979;
+}
+.frame {
+    position: relative;
+    width: 298px;
+    height: 50px;
+    left: 12.5%;
+    top: 20%;
+    margin: 25px 0;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+
+    color: #BDBDBD;
+    border-bottom: 2px solid #BDBDBD;
+    filter: brightness(110%);
+}
+.btn2 {
+    position: absolute;
+    top: 87.5%;
+    width: 398px;
+    height: 60px;
+
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+    background: #EC7979;
+    border-radius: 0 0 10px 10px;
+    border: #EC7979;
+}
