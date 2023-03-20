@@ -1,0 +1,101 @@
+.block {
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+}
+thead {
+    height: 40px;
+    position: relative;
+    right: 1.5px;
+}
+.tab {
+    width: 203px;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+}
+.tab1 {
+    width: 203px;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333333;
+
+    border: 1px solid lightgrey;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+}
+.block1 {
+    width: 1170px;
+    height: 500px;
+    position: absolute;
+    top: 49px;
+    border: 1px solid lightgrey;
+    z-index: 1;
+}
+.rec {
+    width: 205px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    left: 0.1%;
+    top: -3px;
+}
+.block1 img {
+    position: absolute;
+    left: 700px;
+    top: 0;
+}
+.text {
+    width: 570px;
+    height: 210px;
+    position: absolute;
+    left: 7%;
+    top: 30%;
+}
+.block1 h3 {
+    position: absolute;
+    left: 7%;
+    right: 44.37%;
+    top: 2.5%;
+    bottom: 74.28%;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+}
+.h5-1 {
+    position: absolute;
+    top: -15%;
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.h5-2 {
+    position: absolute;
+    top: 35%;
+
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.btn {
+    width: 270px;
+    height: 58px;
+    background-color: #EC7979;
+    color: white;
+    border: none;
+    position: absolute;
+    top: 75%;
+    left: 7%;
+}
