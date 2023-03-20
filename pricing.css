@@ -1,0 +1,121 @@
+.block {
+    position: relative;
+    width: 1024px;
+    height: 770px;
+    background: #F5F5F5;
+}
+.block h1 {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.sep {
+    position: absolute;
+    width: 143px;
+    left: 43.5%;
+    top: 22%;
+
+    border: 1px solid #EC7979;
+    filter: brightness(155%);
+}
+.block h5 {
+    position: absolute;
+    left: 34%;
+    top: 25%;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    color: #86878B;
+}
+.price1 {
+    position: relative;
+    top: 40%;
+    left: 1.25%;
+    display: inline-block;
+    margin-right: 20px;
+    width: 317px;
+    height: 452px;
+
+    background: white;
+}
+.price2 {
+    position: relative;
+    top: 35%;
+    left: 1.25%;
+    display: inline-block;
+    margin-right: 20px;
+    width: 317px;
+    height: 452px;
+
+    background: white;
+}
+.ver {
+    width: 317px;
+    height: 53.21px;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F5F5F5;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.money {
+    width: 317px;
+    height: 88.68px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 37px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #F5F5F5;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.life {
+    width: 317px;
+    height: 44.34px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.gb {
+    width: 318px;
+    height: 44.34px;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: grey;
+
+    border-bottom: 1px solid #e5e5eb;
+}
+span {
+    font-weight: 600;
+    color: rgb(125, 124, 124);
+}
