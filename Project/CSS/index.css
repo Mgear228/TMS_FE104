@@ -1,0 +1,75 @@
+.block {
+    position: relative;
+    width: 1440px;
+    height: 650px;
+}
+.block h3 {
+    margin: 70px 0 0 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.145em;
+    color: #C72535;
+    opacity: 0.6;
+}
+.block .h1 {
+    margin: 10px 0 0 100px;
+    width: 575px;
+    height: 220px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 61px;
+}
+span {
+    color: #247CC0;
+    background: rgb(228, 235, 245);
+}
+.block .h3 {
+    margin: 30px 0 0 100px;
+    width: 515px;
+    height: 54px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.section {
+    margin: 30px 0 0 100px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button {
+    width: 151px;
+    height: 58px;
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background: #247CC0;
+    border: none;
+}
+h2 {
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    font-size: 20px;
+}
+h5 {
+    font-family: 'Hind Siliguri';
+    font-weight: 300;
+    font-size: 16px;
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+}
+img {
+    position: absolute;
+    left: 50%;
+    top: -10%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
