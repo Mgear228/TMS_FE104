@@ -2,7 +2,7 @@ header {
     position: relative;
     padding: 0;
     margin: 0;
-    width: 1024px;
+    width: 1170px;
     height: 75px;
     background: black;
 }
@@ -33,22 +33,22 @@ header {
 .menu {
     position: absolute;
     height: 75px;
-    left: 430px;
+    left: 500px;
 }
-th {
+.z {
     color: white;
     width: 113px;
     font-family: "Nunito Sans", sans-serif;
     font-weight: 400;
 }
 .banner {
-    width: 1024px;
+    width: 1170px;
     height: 693px;
     position: relative;
 }
-img {
+.back {
     position: absolute;
-    width: 1024px;
+    width: 1170px;
     height: 693px;
     filter: brightness(50%);
 }
@@ -79,8 +79,8 @@ img {
 }
 .banner h2 {
     position: absolute;
-    left: 11.26%;
-    right: 44.37%;
+    left: 9.26%;
+    right: 46.37%;
     top: 37.13%;
 
     font-family: 'Raleway', sans-serif;
@@ -100,8 +100,8 @@ img {
 }
 .banner h5 {
     position: absolute;
-    left: 11.26%;
-    right: 70.86%;
+    left: 9.26%;
+    right: 72.86%;
     top: 68%;
 
     font-family: 'Raleway', sans-serif;
@@ -116,7 +116,7 @@ img {
     position: absolute;
     width: 183px;
     height: 50px;
-    left: 11.26%;
+    left: 9.26%;
     top: 81%;
 
     font-family: 'Open Sans', sans-serif;
@@ -147,10 +147,10 @@ article h4 {
 
     color: #333333;
 }
-span {
+.sp {
     color:#EC7979;
 }
-.frame {
+.framek {
     position: relative;
     width: 298px;
     height: 50px;
@@ -169,7 +169,7 @@ span {
     border-bottom: 2px solid #BDBDBD;
     filter: brightness(110%);
 }
-.btn2 {
+.butn2 {
     position: absolute;
     top: 87.5%;
     width: 398px;

@@ -1,9 +1,11 @@
-.block {
+.blocki {
     position: relative;
-    width: 992px;
+    width: 1170px;
     height: 562px;
+    background: #F5F5F5;
+    border-top: 2px solid #80808052;
 }
-h1 {
+.contact {
     position: absolute;
     left: 41%;
     top: 9%;
@@ -20,7 +22,7 @@ h1 {
 
     border: 1px solid #EC7979;
 }
-h5 {
+.aena {
     position: absolute;
     left: 32%;
     top: 27%;
@@ -62,7 +64,7 @@ h5 {
     border-bottom: 1px solid gray;
     filter: brightness(125%);
 }
-button {
+.baton {
     position: absolute;
     width: 318px;
     height: 58px;
@@ -79,11 +81,11 @@ button {
 }
 footer {
     position: relative;
-    width: 1024px;
+    width: 1170px;
     height: 164px;
     background: black;
 }
-table {
+.contmenu {
     position: absolute;
     left: 21.5%;
     top: 20%;
@@ -104,7 +106,7 @@ th {
 }
 .circ {
     position: absolute;
-    left: 55.55%;
+    left: 51.245%;
     top: 29.8%;
     width: 11px;
     height: 11px;
@@ -113,7 +115,7 @@ th {
 }
 .circ2 {
     position: absolute;
-    left: 69.95%;
+    left: 63.75%;
     top: 37.5%;
     width: 9px;
     height: 9px;

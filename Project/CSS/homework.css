@@ -1,7 +1,7 @@
 .block {
     width: 1170px;
     height: 540px;
-    margin: 0 auto;
+    background: #F5F5F5;
 }
 thead {
     height: 40px;
@@ -31,25 +31,27 @@ thead {
     border-radius: 5px 5px 0 0;
 }
 .block1 {
-    width: 1170px;
+    width: 1169px;
     height: 500px;
     position: absolute;
-    top: 49px;
+    top: 817px;
     border: 1px solid lightgrey;
     z-index: 1;
 }
 .rec {
     width: 205px;
     height: 1px;
-    background-color: white;
+    background-color: #F5F5F5;
     position: relative;
     z-index: 2;
     left: 0.1%;
     top: -3px;
 }
-.block1 img {
+.block1 .usa {
     position: absolute;
-    left: 700px;
+    width: 500px;
+    height: 500px;
+    left: 669px;
     top: 0;
 }
 .text {
