@@ -1,0 +1,82 @@
+.shapka {
+    width: 1440px;
+    height: 237px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background: white;
+    box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+}
+.shapka img:nth-child(n) {
+    width: 163px;
+    height: 85px;
+}
+.buy {
+    margin: 110px 0 0 0;
+    width: 1440px;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secta {
+    position: relative;
+}
+.buy .secta:nth-child(n){
+    display: flex;
+    justify-content: space-between;
+}
+.secta div .a {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.secta div .b {
+    width: 256px;
+    height: 63px;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    opacity: 0.6;
+}
+.tsena {
+    display: flex;
+}
+.tsena .c {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.tsena .d {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+div .tsena h4 {
+    margin: 15px 2px 0 2px;
+    font-size: 15px;
+    opacity: 0.5;
+    text-align: center;
+}
+.buy .secta img {
+    margin: 0;
+}
+.buy .secta .kvadr {
+    margin: 30px;
+}
+.buy .secta .pokupka {
+    position: absolute;
+    left: 41.5%;
+    top: -7.5%;
+}
+.pokupka:hover {
+    filter: invert(2.5%);
+}
+.pokupka:active {
+    filter: invert(15%);
+}

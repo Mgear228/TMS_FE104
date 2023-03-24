@@ -1,7 +1,7 @@
 .block {
-    position: relative;
     width: 1440px;
     height: 650px;
+    display: flex;
 }
 .block h3 {
     margin: 70px 0 0 100px;
@@ -41,7 +41,7 @@ span {
     align-items: center;
     justify-content: space-between;
 }
-button {
+.shpnow {
     width: 151px;
     height: 58px;
     font-family: 'Hind Siliguri';
@@ -65,9 +65,7 @@ h5 {
     opacity: 0.5;
 }
 img {
-    position: absolute;
-    left: 50%;
-    top: -10%;
+    margin: 0 0 0 20px;
 }
 a {
     color: white;

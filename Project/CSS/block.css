@@ -1,0 +1,73 @@
+.block0 {
+    width: 1140px;
+    height: 296px;
+    margin: 160px 0 0 150px;
+}
+.block1 {
+    width: 555px;
+    height: 296px;
+    position: relative;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.block0 h2 {
+    width: 350px;
+    height: 27px;
+    position: relative;
+    left: 35px;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #F4F9FC;
+    opacity: 0.6;
+}
+.block0 h1 {
+    position: relative;
+    width: 300px;
+    height: 81px;
+    left: 35px;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+
+    color: #F4F9FC;
+}
+.block0 h3 {
+    position: relative;
+    width: 100px;
+    height: 27px;
+    left: 35px;
+
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+
+    color: #F4F9FC;
+}
+.block2 .camera {
+    width: 265px;
+    height: 221px;
+    position: absolute;
+    left: 280px;
+    bottom: 50px;
+}
+.block1 .drone {
+    width: 345px;
+    height: 301px;
+    position: absolute;
+    left: 250px;
+    bottom: 10px;
+}
+.block2 {
+    width: 555px;
+    height: 296px;
+    position: relative;
+    left: 30px;
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
