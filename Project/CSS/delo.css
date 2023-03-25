@@ -32,6 +32,9 @@
     font-weight: 600;
     font-size: 25px;
 }
+.a:hover {
+    text-decoration: underline;
+}
 .secta div .b {
     width: 256px;
     height: 63px;
@@ -42,6 +45,9 @@
 
     opacity: 0.6;
 }
+.b:hover {
+    text-decoration: underline;
+}
 .tsena {
     display: flex;
 }
@@ -49,6 +55,9 @@
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
     font-size: 16px;
+}
+.c:hover {
+    text-decoration: underline;
 }
 .tsena .d {
     font-family: 'Hind Siliguri', sans-serif;
