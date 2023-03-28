@@ -1,5 +1,5 @@
 .block {
-    width: 1440px;
+    width: 100%;
     height: 650px;
     display: flex;
 }
@@ -11,6 +11,9 @@
     letter-spacing: 0.145em;
     color: #C72535;
     opacity: 0.6;
+}
+h3:hover {
+    text-decoration: underline;
 }
 .block .h1 {
     margin: 10px 0 0 100px;
