@@ -11,6 +11,10 @@
 .shapka img:nth-child(n) {
     width: 163px;
     height: 85px;
+    overflow: hidden;
+}
+.shapka img:hover {
+    transform:scale(1.2);
 }
 .buy {
     margin: 110px 0 0 0;
@@ -88,4 +92,14 @@ div .tsena h4 {
 }
 .pokupka:active {
     filter: invert(15%);
+}
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 151px;
+    height: 58px;
+    position: relative;
+    left: -6px;
+    top: -1px;
 }
