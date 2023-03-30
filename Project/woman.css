@@ -54,42 +54,8 @@ img {
     position: relative;
     z-index: 1;
 }
-.backg {
-    width: 627px;
-    height: 701px;
-    background-color: rgba(36, 124, 192, 1);
-    z-index: 0;
+section img:first-child {
     position: absolute;
-    left: 60px;
-    top: 160px;
-    transform: rotate(-1deg);
-    border-radius: 50% 50% 50% 50% / 70% 82% 18% 29%;
-}
-.backf {
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    top: 768px;
-    left: 456px;
-    z-index: 0;
-    background-color: #F4F9FC;
-}
-.backf2 {
-    position: absolute;
-    width: 100px;
-    height: 200px;
-    top: 585px;
-    left: 608px;
-    z-index: 0;
-    background-color: #F4F9FC;
-}
-.backf3 {
-    position: absolute;
-    width: 20px;
-    height: 100px;
-    top: 516px;
-    left: 666px;
-    transform: rotate(-2deg);
-    z-index: 0;
-    background-color: #F4F9FC;
+    top: 19.5%;
+    left: 2.5%;
 }
