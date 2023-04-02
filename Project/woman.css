@@ -33,11 +33,11 @@ section .desc h5 {
     font-size: 16px;
     opacity: 0.6;
 }
-ul {
+.ul1 {
     margin-top: 40px;
     position: relative;
 }
-li {
+.ul1 li {
     width: 375px;
     font-family: 'Hind Siliguri', sans-serif;
     font-weight: 500;
@@ -45,7 +45,7 @@ li {
     margin-top: 40px;
     list-style: none;
 }
-li::before {
+.ul1 li::before {
     content: url('./Images/Group\ 23.png');
     position: absolute;
     left: 0;

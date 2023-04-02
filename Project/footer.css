@@ -1,0 +1,148 @@
+footer {
+    width: 100%;
+    height: 706px;
+}
+.fst-foot {
+    width: 100%;
+    height: 310px;
+    background: rgba(244, 249, 252, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.fst-foot-one {
+    width: 410px;
+    height: 110px;
+}
+.fst-foot .fst-foot-one h3 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #C72535;
+    opacity: 0.6;
+}
+.fst-foot-one .con {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.fst-foot-one .texc {
+    font-family: 'Hind Siliguri';
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.6;
+}
+.fst-foot-two {
+    position: relative;
+}
+.fst-foot-two input {
+    width: 457px;
+    height: 50px;
+    text-indent: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.fst-foot-two button {
+    position: absolute;
+    width: 122px;
+    height: 53.5px;
+    background: #247CC0;
+    border: none;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+}
+.fst-foot-two button:hover {
+    background: #2993e4;
+}
+.fst-foot-two button:active {
+    background: #195786;
+}
+.snd-foot {
+    width: 100%;
+    height: 396px;
+    background: #030D15;
+    display: flex;
+    justify-content: center;
+}
+.snd-foot .log {
+    margin-top: 76px;
+    width: 261px;
+}
+.snd-foot img {
+    margin: 0;
+}
+.snd-foot .hist {
+    width: 261px;
+    margin-top: 22px;
+    color: white;
+    opacity: 0.6;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.ul2 {
+    margin-top: 75px;
+    list-style: none;
+}
+.ul2 li:first-child {
+    color: white;
+    opacity: 1;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+.ul2 li {
+    color:white;
+    opacity: 0.6;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.snd-foot .infa {
+    margin-top: 75px;
+    margin-left: 75px;
+}
+.snd-foot .infa h4 {
+    margin: 0;
+    margin-bottom: 26px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.snd-foot .infa h6 {
+    margin-top: 14px;
+    margin-bottom: 16px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.snd-foot .spis {
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 53px;
+}
+.snd-foot .languag {
+    position: relative;
+    left: 20px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.languag::before {
+    content: url(./Images/earth.png);
+    left: -23px;
+    position: absolute;
+}
+.languag::after {
+    content: url(./Images/galochka.png);
+    margin-left: 5px;
+    margin-bottom: 3px;
+}

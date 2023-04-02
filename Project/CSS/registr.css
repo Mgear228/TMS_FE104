@@ -1,0 +1,170 @@
+body {
+    background: lightgrey;
+}
+section {
+    margin: auto;
+    background: white;
+    width: 600px;
+    height: 717px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px rgba(68, 68, 68, 0.05);
+}
+img {
+    margin: 54px 0 0 505px;
+}
+img:hover {
+    filter: brightness(80%);
+}
+img:active {
+    filter: brightness(65%);
+}
+.main {
+    width: 374px;
+    height: 400px;
+    position: relative;
+    left: calc(50% - 374px/2);
+    border-bottom: 1px solid #BDBDBD;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    color: #424242;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.row {
+    margin-bottom: 24px;
+    overflow: hidden;
+    height: 55px;
+}
+.inp {
+    width: 365px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 83px;
+    text-indent: 32px;
+}
+.inp:hover {
+    background-color: #efefef;
+}
+.inp::placeholder {
+    opacity: 0.4;
+}
+.conf {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    appearance: none;
+    position: relative;
+}
+.conf::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid rgba(189, 189, 189, 1);
+    background-color: white;
+}
+.conf:hover::before {
+    background-color: rgb(246, 245, 245);
+}
+.conf:active::before {
+    background-color: rgb(186, 186, 186);
+}
+.conf::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    color: rgb(135, 135, 135);
+}
+.conf:checked::after{
+    content: "\2714";
+}
+.conf:checked:hover::before {
+    background-color: white;
+}
+.row:nth-child(4) {
+    display: flex;
+    align-items: center;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    margin-left: 24px;
+}
+.main .row label {
+    margin-left: 16px;
+}
+.main button {
+    width: 152px;
+    height: 50px;
+    background: linear-gradient(102.48deg, #976464 -29.03%, #CFA5A5 97.75%);
+    border-radius: 49px;
+    border: none;
+    color: white;
+    font-family: 'Spectral SC', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+.main button:hover {
+    background: linear-gradient(102.48deg, #af7575 -29.03%, #e1b3b3 97.75%);
+}
+.main button:active {
+    background: linear-gradient(102.48deg, #895c5c -29.03%, #b18c8c 97.75%);
+}
+.row:last-child label:hover {
+    text-decoration: underline;
+}
+.row:last-child label:active {
+    text-decoration: underline;
+    color: gray;
+}
+.row:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg {
+    margin-top: 40px;
+    width: 261px;
+    position: relative;
+    left: calc(50% - 261px/2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+}
+.reg button {
+    margin-top: 16px;
+    width: 217px;
+    height: 50px;
+    border: 1px solid #BDBDBD;
+    border-radius: 49px;
+    background-color: white;
+    font-family: 'Spectral SC';
+    font-weight: 600;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+.reg button:hover {
+    background-color: rgb(241, 241, 241);
+}
+.reg button:active {
+    background-color: rgb(190, 189, 189);
+    color: #d9d9d9;
+}

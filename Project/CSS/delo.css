@@ -14,7 +14,7 @@
     overflow: hidden;
 }
 .shapka img:hover {
-    transform:scale(1.2);
+    transform: scale(1.2);
 }
 .buy {
     margin: 110px 0 0 0;
@@ -78,6 +78,10 @@ div .tsena h4 {
 }
 .buy .secta img {
     margin: 0;
+    overflow: hidden;
+}
+.buy .secta img:hover {
+    transform: scale(1.2);
 }
 .buy .secta .kvadr {
     margin: 30px;
