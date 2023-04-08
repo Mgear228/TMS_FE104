@@ -85,10 +85,27 @@ h2:hover {
     color: #030D15;
     opacity: 0.5;
 }
-img {
+.boombox {
     margin: 0 0 0 20px;
 }
 a {
     color: white;
     text-decoration: none;
+}
+@media screen and (max-width: 1024px) {
+    .boombox {
+        display: none;
+    }
+    .block div h3 {
+        margin-left: 25px;
+    }
+    .block div .h1 {
+        margin-left: 25px;
+    }
+    .block div .h3 {
+        margin-left: 25px;
+    }
+    .block div .section {
+        margin-left: 25px;
+    }
 }

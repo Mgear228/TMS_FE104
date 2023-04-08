@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 
     background: white;
     box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
@@ -106,4 +107,9 @@ a {
     position: relative;
     left: -6px;
     top: -1px;
+}
+@media screen and (max-width: 1024px) {
+    .buy {
+        flex-wrap: wrap;
+    }
 }

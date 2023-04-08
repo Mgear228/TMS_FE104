@@ -76,3 +76,26 @@ h1:hover {
     background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 1024px) {
+    .block0 {
+        flex-direction: column;
+        margin: 250px 0 0 150px;
+    }
+    .block2 {
+        top: 25px;
+        left: 0;
+    }
+    .block2 .camera {
+        left: 280px;
+        bottom: 20px;
+    }
+    .block1 .drone {
+        left: 250px;
+        bottom: -45px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .block0 {
+        margin-left: 50px;
+    }
+}

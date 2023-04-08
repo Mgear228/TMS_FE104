@@ -56,6 +56,17 @@ img {
 }
 section img:first-child {
     position: absolute;
-    top: 19.5%;
-    left: 2.5%;
+    margin: 160px 0 0 35px;
+}
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+    }
+    section {
+        flex-direction: column;
+        margin-top: 350px;
+    }
+    section .woman {
+        width: 650px;
+    }
 }
