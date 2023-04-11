@@ -70,3 +70,40 @@ section img:first-child {
         width: 650px;
     }
 }
+@media screen and (max-width: 640px) {
+    section img:first-child {
+        width: 360px;
+        margin: 125px 0 0 35px;
+    }
+    section .woman {
+        width: 400px;
+    }
+    section .desc {
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 510px) {
+    section .desc div {
+        display: none;
+    }
+}
+@media screen and (max-width: 420px) {
+    section img {
+        display: none;
+    }
+    section {
+        margin-top: 200px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .ul1 {
+        width: 300px;
+        padding-left: 0;
+    }
+    .ul1 li {
+        width: 300px;
+    }
+    .ul1 li:before {
+        display: none;       
+    }
+}

@@ -109,3 +109,43 @@ a {
         margin-left: 25px;
     }
 }
+@media screen and (max-width: 630px) {
+    .block div .h1 {
+        font-size: 41px;
+        height: 110px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .block div .h1 {
+        font-size: 21px;
+        height: 65px;
+    }
+    .block div .section {
+        height: 100px;
+    }
+    .block div {
+        height: 300px;
+    }
+    .block div .h1 {
+        height: 35px;
+    }
+    .block {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .block div .h1 {
+        width: 300px;
+    }
+    .block div .h3 {
+        width: 300px;
+    }
+    .block div h5 {
+        display: none;
+    }
+}
+@media screen and (max-width: 360px) {
+    .block div h2 {
+        display: none;
+    }
+}

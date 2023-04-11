@@ -113,3 +113,20 @@ a {
         flex-wrap: wrap;
     }
 }
+@media screen and (max-width: 580px) {
+    .buy .secta:nth-child(n) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pokupka {
+        display: none;
+    }
+    .buy .secta .kvadr {
+        margin: 0;
+    }
+}
+@media screen and (max-width: 340px) {
+    .shapka {
+        height: 350px;
+    }
+}
